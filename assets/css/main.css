@@ -3234,7 +3234,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 50vw;
+			width: 35vw;
 			z-index: -1;
 		}
 
@@ -3878,5 +3878,8 @@ input, select, textarea {
 		body.is-ie #wrapper section > footer {
 			padding: 4rem;
 		}
+	}
 
+	#wrapper > section.intro > header{
+		margin-left: 0 !important;
 	}
